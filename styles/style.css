@@ -1,0 +1,624 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', 'ProstoOme', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigate {
+    width: 100%;
+    position: fixed;
+    background: #282828;
+    z-index: 100;
+}
+
+.header__list {
+    margin-top: 22px;
+    margin-bottom: 23px;
+
+}
+
+.header__font {
+    margin-left: 25px;
+    color: #FFFFFF;
+}
+.header__font2 {
+    margin-left: 25px;
+    color: #FFFFFF;
+}
+
+.header__list_fonts {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    color: #FFFFFF;
+}
+
+.header__search {
+    background: url('../images/Header.svg') no-repeat center/cover;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 635px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin: 6px 0;
+}
+
+.nav__f {
+    display: flex;
+}
+
+.header__link1 {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+.header__link {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+
+.header__list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.header__name {
+    color: #FFFFFF;
+    font-family: 'ProstoOme';
+    font-size: 100px;
+    line-height: 75px;
+    font-weight: 400;
+}
+
+.vector {
+    width: 200px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 38px;
+    font-size: 20px;
+    line-height: 24.38px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    color: #171718;
+    font-weight: 500;
+}
+
+
+
+.img__vector {
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    padding-right: 14px;
+    color: #171718;
+
+
+}
+
+.main__all {
+    background: #151515;
+}
+
+.main__first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__descr__first {
+    font-size: 22px;
+    margin-top: 63px;
+    max-width: 538px;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.main__img__first {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main__second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main__descr__second {
+    display: flex;
+    align-items: center;
+    max-width: 540px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+
+}
+
+.main__third {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main__descr__third1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    line-height: 24px;
+    max-width: 333px;
+    width: 100%;
+    text-align: end;
+    height: 120px;
+    font-weight: 700;
+}
+
+.img__third {
+    align-items: center;
+    display: flex;
+
+}
+
+.img__third::before {
+    content: '';
+    background: #C4C4C4;
+    width: 61px;
+    display: block;
+    height: 1px;
+    margin-left: 12px;
+    margin-right: 14px;
+}
+
+.img__third::after {
+    content: '';
+    background: #C4C4C4;
+    display: block;
+    width: 61px;
+    height: 1px;
+    align-items: center;
+    margin-left: 14px;
+    margin-right: 12px;
+}
+
+.main__descr__third {
+    display: flex;
+    font-size: 20px;
+    color: #FFFFFF;
+    max-width: 333px;
+    width: 100%;
+    line-height: 24px;
+    font-weight: 700;
+
+}
+
+.main__phones {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+    padding-top: 79px;
+}
+
+.main__iPhonePro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 312px;
+    max-width: 255px;
+    width: 100%;
+}
+
+.main__iPhone11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 312px;
+    max-width: 255px;
+    width: 100%;
+}
+
+.main__iPhoneSE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 312px;
+    max-width: 255px;
+    width: 100%;
+}
+
+.main__iPhoneXR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 312px;
+    max-width: 255px;
+    width: 100%;
+}
+
+.phone__name1 {
+    font-size: 20px;
+    color: #000000;
+    justify-content: center;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.phone__name2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: center;
+
+}
+
+.phone__name3 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.phone__name4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.phone__cost {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.phone__link {
+    display: flex;
+    background: #151515;
+    font-size: 16px;
+    height: 34px;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 161px;
+    width: 100%;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer {
+    background: #282828;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    color: #FFFFFF;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer__list_fonts {
+    display: flex;
+    align-items: center;
+}
+
+.footer__card {
+    display: flex;
+    align-items: center;
+    padding-right: 29px;
+}
+
+
+@media(max-width: 1100px) {
+    .main__img__first {
+        width: 400px;
+        height: 225px;
+        margin-bottom: 0;
+    }
+
+    .main__second {
+        margin-top: 0;
+    }
+
+    .main__third {
+        margin-top: 0;
+    }
+
+    .main__img__second {
+        width: 300px;
+        height: 225px;
+    }
+
+    .main__img__third {
+        width: 150px;
+        height: 205px;
+    }
+
+    .main__phones {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 255px));
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .main__descr__first {
+        margin-right: 10px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .main__descr__second {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 920px) {
+    .main__content {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(320, 1fr));
+        margin: 0;
+        gap: 20px;
+    }
+
+    .img__third::before,
+    .img__third::after {
+        max-width: 25px;
+    }
+
+    .main__descr__first {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .main__descr__second {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .main__descr__third {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .main__descr__third1 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .main__img__first {
+        width: 250px;
+    }
+
+    .main__img__second {
+        width: 200px;
+    }
+
+    .main__img__second {
+        width: 200px;
+    }
+}
+
+@media(max-width: 700px) {
+    .header__search {
+        height: 500px;
+    }
+
+    .img__third::before,
+    .img__third::after {
+        display: none;
+    }
+
+    .img__third {
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 630px) {
+    .footer__main {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(70px, 1fr));
+        gap: 10px;
+    }
+
+    .footer__nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__list {
+        display: flex;
+    }
+
+    .footer__fonts {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__descr__first {
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .main__descr__second {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .main__descr__third {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .main__descr__third1 {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .main__img__third {
+        width: 120px;
+    }
+
+    .footer__main {
+        padding: 15px 0;
+    }
+}
+
+@media(max-width: 570px) {
+    .main__phones {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(150px, 255px));
+    }
+
+    .main__img__first {
+        width: 180px;
+    }
+    .main__img__second {
+        height: 150px;
+    }
+}
+@media(max-width: 470px){
+    .header__nav{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(60, 1fr));
+        justify-content: center;
+        row-gap: 10px;
+        padding-bottom: 10px;
+    }
+    .nav__f{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header__list_fonts{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .header__list{
+        margin: 0;
+    }
+    
+    .header__name{
+        font-size: 60px;
+        padding-top: 150px;
+    }
+    .header__font{
+        margin-left: 0;
+    }
+    .header__link1{
+        margin-left: 0;
+    }
+    .main__first{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .main__descr__first{
+        margin-right: 0;
+        text-align: center;
+    }
+    .main__img__first{
+        margin: 0 auto;
+    }
+    .main__second{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__descr__second{
+        text-align: center;
+    }
+    
+    .main__img__second{
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .main__third{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__descr__third{
+        text-align: center;
+    }
+    .main__descr__third1{
+        text-align: center;
+    }
+    
+}
